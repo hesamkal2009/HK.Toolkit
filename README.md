@@ -1,2 +1,4 @@
 # HK.Toolkit
-This a package for easing development by providing some tools specially for Iranian C# developers.
+This package is mostly all I need which I use for my back-end development and you are more than welcome to use it in your softwares. 
+
+
