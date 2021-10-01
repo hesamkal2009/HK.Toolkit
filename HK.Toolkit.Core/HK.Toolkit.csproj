@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Hesam Kalhor</Authors>
+    <Description>This a package for easing development by providing some tools specially for Iranian C# developers.</Description>
+    <Copyright>GPL</Copyright>
+    <PackageProjectUrl>https://github.com/hesamkal2009/HK.Toolkit.git</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hesamkal2009/HK.Toolkit.git</RepositoryUrl>
+    <RepositoryType>Public</RepositoryType>
+    <PackageTags>HK, Hesam Kalhor, Toolkit</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.GuardClauses" Version="3.2.0" />
+    <PackageReference Include="Ardalis.SmartEnum" Version="2.0.1" />
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.21.1" />
+  </ItemGroup>
+
+</Project>
