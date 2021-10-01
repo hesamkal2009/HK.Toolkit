@@ -26,4 +26,4 @@ jobs:
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
         PROJECT_FILE_PATH: HK.Toolkit/HK.Toolkit.Core/HK.Toolkit.csproj
-        NUGET_KEY: oy2e52jfudckbbi227hqk4doq5ovf2cutf7sl72y55soom
+        NUGET_KEY: ${{secrets.NUGET_API_KEY}}
