@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HK.ToolKit.Exceptions
+namespace HK.Toolkit.Exceptions
 {
     [Serializable]
     public class InputIsNotConvertableToRequiredTypeException : Exception

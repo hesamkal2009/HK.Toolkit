@@ -1,4 +1,4 @@
-﻿using HK.ToolKit.Exceptions;
+﻿using HK.Toolkit.Exceptions;
 using System;
 
 namespace HK.Toolkit.Core

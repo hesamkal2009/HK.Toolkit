@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Text;
+using System.Security.Cryptography;
 
 namespace HK.Toolkit.Hashers
 {
     public static class IdentityHasher
     {
-        #region IdentityHash
 
         // 24 = 192 bits
         private const int SaltByteSize = 24;
@@ -93,4 +92,3 @@ namespace HK.Toolkit.Hashers
     }
 }
 
-#endregion IdentityHash

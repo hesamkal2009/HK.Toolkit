@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HK.Toolkit", "HK.Toolkit.Core\HK.Toolkit.csproj", "{F12EA311-DAC7-4735-863C-8DD35DDDE644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HK.ToolKit.UnitTests", "HK.ToolKit.UnitTests\HK.ToolKit.UnitTests.csproj", "{0C5B18F8-D334-4DF9-910B-C15EA7612A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HK.Toolkit.UnitTests", "HK.Toolkit.UnitTests\HK.Toolkit.UnitTests.csproj", "{0C5B18F8-D334-4DF9-910B-C15EA7612A8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
