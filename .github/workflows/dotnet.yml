@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET
@@ -25,4 +23,7 @@ jobs:
     - name: Publish NuGet
       uses: brandedoutcast/publish-nuget@v2.5.5
       with:
+        # Filepath of the project to be packaged, relative to root of repository
         PROJECT_FILE_PATH: HK.Toolkit.Core/HK.Toolkit.csproj
+        NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+        
