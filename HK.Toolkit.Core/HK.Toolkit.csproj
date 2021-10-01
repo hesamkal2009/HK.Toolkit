@@ -10,6 +10,7 @@
     <RepositoryUrl>https://github.com/hesamkal2009/HK.Toolkit.git</RepositoryUrl>
     <RepositoryType>Public</RepositoryType>
     <PackageTags>HK, Hesam Kalhor, Toolkit</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
